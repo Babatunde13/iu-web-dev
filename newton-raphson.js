@@ -16,7 +16,7 @@ function newtonRaphson(x0, tol) {
     fxn = f(xn);  // Function value at new approximation
   }
 
-  return xn;  // Return the final approximation of the root
+  return xn;
 }
 
 // Test the Newton-Raphson method with an initial guess of 1 and tolerance of 0.0001
